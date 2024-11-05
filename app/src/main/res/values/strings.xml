@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fist Kotlin proyect</string>
+    <string name="hello_world">hello world in shared Pref</string>
 </resources>
