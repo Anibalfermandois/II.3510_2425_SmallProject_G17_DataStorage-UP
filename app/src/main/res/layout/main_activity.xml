@@ -41,4 +41,64 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp" />
+
+    <!-- Champ de texte pour entrer le nom de l'utilisateur -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <!-- Champ de texte pour entrer l'âge de l'utilisateur -->
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Bouton pour ajouter un utilisateur dans la base de données -->
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Champ de texte pour entrer l'ID de l'utilisateur à supprimer -->
+    <EditText
+        android:id="@+id/etUserIdToDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User ID to Delete"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Bouton pour supprimer un utilisateur -->
+    <Button
+        android:id="@+id/btnDeleteUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Bouton pour afficher tous les utilisateurs -->
+    <Button
+        android:id="@+id/btnShowUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Users"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView pour afficher la liste des utilisateurs -->
+    <TextView
+        android:id="@+id/tvUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Users will appear here"
+        android:padding="8dp"
+        android:background="#f0f0f0"
+        android:layout_marginTop="20dp" />
 </LinearLayout>
